@@ -10,6 +10,6 @@ const getColor = () => {
   colorSpan.textContent = randomColor;
 };
 
-const changeColorButton = document.querySelector(".change-color");
-
-changeColorButton.addEventListener("click", getColor);
+const changeColorButton = document
+  .querySelector(".change-color")
+  .addEventListener("click", getColor);
