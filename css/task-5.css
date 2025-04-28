@@ -1,0 +1,30 @@
+.widget {
+    max-width: 169px;
+    margin: auto;
+}
+
+.widget-title {
+    margin-bottom: 16px;
+}
+
+.change-color {
+    display: block;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    min-width: 148px;
+    height: 40px;
+    transition: background-color var(--animation);
+}
+
+.change-color:hover,
+.change-color:focus {
+    background-color: #6c8cff;
+}
